@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:background="@drawable/bg_card"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="26dp"
+    android:paddingTop="26dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="26dp">
+
+    <ImageView
+        android:layout_width="136dp"
+        android:layout_height="206dp"
+        android:id="@+id/iv_search_book_cover"
+        android:background="@drawable_bg_cover_placeholder"
+        android:contentDescription="@string/book_cover_description"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/tv_search_book_title"
+            android:textSize="@dimen/text_section"
+            tools:text="Harry potter and the chamber of secrets "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_on_dark_secondary"
+            android:id="@+id/tv_search_book_author"
+            android:layout_marginTop="6dp"
+            android:textSize="14sp"
+            tools:text="J.K. Rowling"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_search_add_to_shelf"
+            style="@style/BookMarked.TealButton"
+            android:layout_marginTop="24dp"
+            android:text="@string/add_to_shelf"/>
+
+    </LinearLayout>
+
+</LinearLayout>

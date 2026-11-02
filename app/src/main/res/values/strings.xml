@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BookMarked</string>
+
+    <!-- Welcome -->
+    <string name="login">Login</string>
+    <string name="sing_up">Sign Up</string>
+    <string name="logo_description">BookMarked logo</string>
+
+    <!-- Login -->
+    <string name="Welcome_back">Welcome Back</string>
+    <string name="please_login_below">Please Login Below</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="trouble_logging_in">Trouble Logging in...</string>
+
+    <!-- sign up -->
+    <string name="join_bookmarked">Join BookMarked </string>
+    <string name="please_fill_in_info">Please Fill in Information Below</string>
+    <string name="email">Email</string>
+    <string name="confirm_password">Confirm_password</string>
+
+    <!-- home -->
+    <string name="welcome_back_user">Welcome back, %1$s</string>
+    <string name="day_streak">Day\nStreak</string>
+    <string name="day_streak_one_line">Day Streak</string>
+    <string name="reading_goal">Reading Goal: %1$d books </string>
+    <string name="books_read">%1$d books read</string>
+    <string name="currently_reading">Currently Reading</string>
+    <string name="chapter_number">Chapter %1$d</string>
+    <string name="my_book_club_updates">My Book Club Updates</string>
+
+    <!-- Bookshelf -->
+    <string name="my_bookshelf">My Bookshelf</string>
+    <string name="tab_reading">Reading</string>
+    <string name="tab_want_to_read">Want to read</string>
+    <string name="tab_completed">Completed</string>
+    <string name="tab_dnf">DNF</string>
+    <string name="add_to_shelf_tile">Add to\nshelf</string>
+    <string name="book_cover_description">Book Cover</string>
+
+    <!-- clubs -->
+    <string name="my_book_clubs">My book Clubs</string>
+    <string name="club_subtitle">%1$d members . currently reading</string>
+    <string name="members">Members</string>
+    <string name="discussion">Discussion</string>
+    <string name="add_a_comment">Add a comment</string>
+    <string name="send_comment">Send comment</string>
+
+    <!-- search -->
+    <string name="search_hint">Search</string>
+    <string name="books">Books</string>
+    <string name="clubs">clubs</string>
+    <string name="add_to_shelf">Add to shelf</string>
+    <string name="join_club">Join Club</string>
+    <string name="member_count">%1$d Members</string>
+    <string name="current_book">Current Book</string>
+
+    <!-- profile -->
+    <string name="my_profile">My Profile</string>
+    <string name="books_ive_completed">Books I\'ve Completed</string>
+    <string name="see_all">See all</string>
+    <string name="achievements">Achievements</string>
+
+    <!-- bottom nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_bookshelf">Bookshelf</string>
+    <string name="nav_clubs">Clubs</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_profile">Profile</string>
+</resources>

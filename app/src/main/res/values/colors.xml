@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- BACKGROUNDS -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navy_background">#1B3170 </color>
+    <color name="navy_card">#13234F </color>
+    <color name="header_gray">#D9D9D9 </color>
+    <color name="club_inner_card">#1F1F1F</color>
+
+    <!-- ACCENTS -->
+    <color name="accent_blue">#4F68f7</color>
+    <color name="accent_teal">#00cc99</color>
+
+    <!-- TEXT -->
+    <color name="text_on_dark">#FFFFFF</color>
+    <color name="text_on_dark_secondary">#d0d6e6</color>
+    <color name="text_on_light">#111111</color>
+    <color name="text_comment_author">#1b1f4b</color>
+
+    <!-- INPUTS -->
+    <color name="input_fill">#d9d9d9</color>
+    <color name="comment_input_fill">#8a8f9e</color>
+    <color name="progress_track">#d9d9d9</color>
+
+    <!-- Bottom navigation -->
+    <color name="nav_background">#d9d9d9</color>
+    <color name="navy_selected">#9e9e9e</color>
+    <color name="nav_icon">#1e1e1e</color>
+
+    <color name="placeholder_cover">#2a3d7a</color>
+
+</resources>

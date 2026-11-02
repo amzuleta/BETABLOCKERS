@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_member_initial"
+    android:layout_width="@dimen/avatar_size"
+    android:layout_height="@dimen/avatar_size"
+    android:layout_marginStart="6dp"
+    android:layout_marginEnd="16dp"
+    android:background="@drawable/bg_avatar"
+    android:backgroundTint="#1E6B3A"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    tools:text="M" />

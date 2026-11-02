@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- returning user login -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_background"
+    android:fillViewport="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingStart="48dp"
+        android:paddingTop="96dp"
+        android:paddingEnd="48dp"
+        android:paddingBottom="32dp">
+        <ImageView
+            android:layout_width="77dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="48dp"
+            android:contentDescription="@string/logo_description"
+            android:src="@drawable/ic_book" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/accent_teal"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Welcome_back"
+            android:textColor="@color/text_on_dark"
+            android:textSize="34sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/please_login_below"
+            android:textColor="@color/accent_teal"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <TextView
+               style="@style/BookMarked.FieldLabel"
+                android:labelFor="@+id/et_login_username"
+                android:text="@string/username"/>
+
+            <EditText
+                android:id="@+id/et_login_username"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:autofillHints="username"
+                android:hint="@string/username"
+                android:inputType="text"
+                android:style="@style/BookMarked.Input"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                style="@style/BookMarked.FieldLabel"
+                android:labelFor="@+id/et_login_username"
+                android:text="@string/username"/>
+
+            <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="229dp"
+                android:layout_height="wrap_content"
+                android:autofillHints="password"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:style="@style/BookMarked.Input"
+                android:textColorHint="@color/black" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_trouble_logging_in"
+                android:layout_gravity="end"
+                android:layout_marginTop="12dp"
+                android:background="?attr/selectableItemBackground"
+                android:padding="4dp"
+                android:text="@string/trouble_logging_in"
+                android:textColor="@color/text_on_dark_secondary"
+                android:textSize="@dimen/text_small"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_login"
+            style="@style/BookMarked.PillButton"
+            android:layout_marginTop="32dp"
+            android:textAlignment="center"
+            android:text="@string/login"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:minHeight="48dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

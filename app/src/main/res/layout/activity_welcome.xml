@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_padding">
+
+    <ImageView
+        android:id="@+id/welcome_logo"
+        android:layout_width="74dp"
+        android:layout_height="80dp"
+        android:contentDescription="@string/logo_description"
+        android:src="@drawable/ic_book" />
+
+    <TextView
+        android:id="@+id/welcome_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/app_name"
+        android:textColor="@color/accent_teal"
+        android:textSize="48sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_go_to_login"
+        style="@style/BookMarked.PillButton"
+        android:layout_marginTop="48dp"
+        android:text="@string/login"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_go_to_signup"
+        style="@style/BookMarked.PillButton"
+        android:layout_marginTop="16dp"
+        android:text="@string/sing_up"/>
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="120dp"/>
+
+</LinearLayout>

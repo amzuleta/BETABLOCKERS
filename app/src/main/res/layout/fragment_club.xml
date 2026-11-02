@@ -67,7 +67,7 @@
                     android:id="@+id/tv_club_book_cover"
                     android:contentDescription="@string/book_cover_description"
                     android:scaleType="centerCrop"
-                    android:src="drawable/bg_cover_placeholder"
+                    android:src="@drawable/bg_cover_placeholder"
                     app:shapeAppearanceOverlay="@style/BookMarked.CoverShape"/>
 
                 <LinearLayout
@@ -181,10 +181,8 @@
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:id="@+id/btn_club_send_comment"
-                    android:background="?attr/selectableItemBackgroundBorderless"
                     android:contentDescription="@string/send_comment"
-                    android:src="@drawable/ic_arrow_forward"
-                    app:tint="@color/text_on_light" />
+                    android:src="@drawable/ic_arrow_forward" />
             </LinearLayout>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>

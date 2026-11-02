@@ -49,7 +49,7 @@
                 android:autofillHints="username"
                 android:hint="@string/username"
                 android:inputType="text"
-                android:style="@style/BookMarked.Input"
+                style="@style/BookMarked.Input"
                 android:textColorHint="@color/black" />
 
             <TextView
@@ -64,7 +64,7 @@
                 android:autofillHints="emailAddress"
                 android:hint="@string/email"
                 android:inputType="textEmailAddress"
-                android:style="@style/BookMarked.Input"
+                style="@style/BookMarked.Input"
                 android:textColorHint="@color/black" />
 
             <TextView
@@ -79,7 +79,7 @@
                 android:autofillHints="newPassword"
                 android:hint="@string/password"
                 android:inputType="textPassword"
-                android:style="@style/BookMarked.Input"
+                style="@style/BookMarked.Input"
                 android:textColorHint="@color/black" />
 
             <TextView
@@ -94,7 +94,7 @@
                 android:autofillHints="newPassword"
                 android:hint="@string/password"
                 android:inputType="textPassword"
-                android:style="@style/BookMarked.Input"
+                style="@style/BookMarked.Input"
                 android:textColorHint="@color/black" />
 
         </LinearLayout>

@@ -16,7 +16,7 @@
         android:layout_width="136dp"
         android:layout_height="206dp"
         android:id="@+id/iv_search_book_cover"
-        android:background="@drawable_bg_cover_placeholder"
+        android:background="@drawable/bg_cover_placeholder"
         android:contentDescription="@string/book_cover_description"
         android:scaleType="centerCrop"/>
 
